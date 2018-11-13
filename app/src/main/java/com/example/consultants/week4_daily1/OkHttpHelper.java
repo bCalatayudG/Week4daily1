@@ -40,11 +40,11 @@ public class OkHttpHelper {
 //            public void run() {
 //                try {
 //                    Log.d(TAG, "execute: ");
-                    response = client.newCall(request).execute().body().string();
+                    //response = client.newCall(request).execute().body().string();
 //                    //Log.d(TAG, "run: " + response);
-                    personList = RandomParser.parsePerson(response);
+                    //personList = RandomParser.parsePerson(response);
 //                    //Log.d(TAG, "run: personList.size: " + personList.size());
-                    Log.d(TAG, "run: " + personList);
+                    //Log.d(TAG, "run: " + personList);
 //                } catch (IOException e) {
 //                    e.printStackTrace();
 //                }
